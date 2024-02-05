@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    width: 30vw;
+    height: fit-content;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+border-radius: 10px;
+padding: 32px;
+margin-top: 15%;
+margin-bottom: 15%;
+}
+
+img {
+    border-radius: 100%;
+width: 30%;
+margin-bottom: 15px;
+}
+
+h1 {line-height: 0; font-size: 1.8rem;}
+
+p {color: hsl(75, 94%, 57%);
+font-size: 14px;}
+
+q {font-size: 14px;}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 2px solid hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+
+    border-radius: 8px;
+    margin: 5% 0 0 0;
+}
+
+a:hover {color: hsl(0, 0%, 8%);
+background-color: hsl(75, 94%, 57%);}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
